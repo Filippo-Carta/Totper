@@ -31,7 +31,7 @@ Most TOTP apps (Google Authenticator, Authy, etc.) store your 2FA secrets on you
 - USB OTG support (virtually all modern Android phones)
 
 ### Hardware
-- Totper pcb or mounted circuit. All available at ......... .
+- Totper PCB and schematic are available at [Filippo-Carta/Totper-Device](https://github.com/Filippo-Carta/Totper-Device) .
 
 
 
@@ -67,7 +67,7 @@ The ESP32 uses this to keep its internal clock accurate, so the generated codes 
 ## Getting Started
 
 ### 1. Flash the firmware
-Flash the ESP32-C3 with the companion firmware. *(Link to firmware repo coming soon.)*
+Flash the ESP32-C3 with the companion firmware. *[(https://github.com/Filippo-Carta/Totper-Device)](https://github.com/Filippo-Carta/Totper-Device/blob/main/firmware/sketch.ino)*
 
 ### 2. Install the app
 Clone this repo and build with Android Studio, or download the latest APK from [Releases](../../releases).
